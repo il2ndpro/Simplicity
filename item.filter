@@ -7,7 +7,7 @@ ItemDisplay[CLVL>14 GOLD<100]:
 ItemDisplay[CLVL>21 GOLD<200]:
 ItemDisplay[CLVL>28 GOLD<300]:
 ItemDisplay[CLVL>35 GOLD<400]:
-ItemDisplay[CLVL>40 GOLD<500]:
+ItemDisplay[CLVL>40 GOLD<5555]:
 
 // POTIONS
 ItemDisplay[hp1 CLVL<15]: %RED%[%GRAY%Health%RED%]
