@@ -7,7 +7,7 @@ ItemDisplay[CLVL>14 GOLD<100]:
 ItemDisplay[CLVL>21 GOLD<200]:
 ItemDisplay[CLVL>28 GOLD<300]:
 ItemDisplay[CLVL>35 GOLD<400]:
-ItemDisplay[CLVL>40 GOLD<500]:
+ItemDisplay[CLVL>40 GOLD<5000]:
 
 // POTIONS
 ItemDisplay[hp1 CLVL<15]: %RED%[%GRAY%Health%RED%]
@@ -40,7 +40,7 @@ ItemDisplay[rvl]: %PURPLE%[%WHITE%Rejuvenation%PURPLE%] // Full Rejuvenation pot
 ItemDisplay[gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc AND CLVL>14]: // chipped
 ItemDisplay[gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf AND CLVL>24]: // flawed
 ItemDisplay[gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku AND CLVL>59]: // standart
-//ItemDisplay[glv OR gly OR glb OR glg OR glr OR glw OR skl AND CLVL>85]: // flawless
+//ItemDisplay[glv OR gly OR glb OR glg OR glr OR glw OR skl AND CLVL>99]: // flawless
 
 // hide white/magic arrows and bolts (show only for starting characters)
 ItemDisplay[(aq2 OR cq2) (NMAG OR MAG) CLVL>9]:
@@ -54,14 +54,14 @@ ItemDisplay[leg]: %NAME%
 
 // Make stamina, keys, scrolls and thawing/antidote potions barely visible
 // after first X levels
-ItemDisplay[key]: %GRAY%Key
+ItemDisplay[key]: Key
 
-ItemDisplay[tsc]: %BLUE%P%WHITE%ortal
-ItemDisplay[isc]: %GREEN%I%WHITE%dentify
+ItemDisplay[tsc]: 
+ItemDisplay[isc]: 
 
 ItemDisplay[vps]: %BLACK%Stamina
-ItemDisplay[wms]: %BLACK%Thawing
-ItemDisplay[yps]: %BLACK%Antidote
+ItemDisplay[wms]: 
+ItemDisplay[yps]: 
 
 // Show possible expensive, fewer-socketed white/magic items with vendor price
 ItemDisplay[(WP11 OR WP12 OR WP13) (NMAG OR MAG) !RW SOCK<2]: %WHITE%%NAME% ($ %PRICE%) // staves, wands and scepters
